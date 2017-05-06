@@ -1,0 +1,17 @@
+{
+  "name": "triangle-challenge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/yara-simargil/triangle-challenge.git",
+  "author": "Olga Leus",
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "expect.js": "^0.3.1",
+    "mocha": "^3.3.0"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --compilers js:babel-core/register"
+  }
+}
