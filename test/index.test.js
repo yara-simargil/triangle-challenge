@@ -29,6 +29,10 @@ describe('Triangle challenge:', () => {
       expect(getTriangleType).withArgs(1, 2, '3').to.throwException(errors.wrongArgType);
     });
 
+    it('passed `bool`', () => {
+      expect(getTriangleType).withArgs(1, 2, true).to.throwException(errors.wrongArgType);
+    });
+
     it('passed `object`', () => {
       expect(getTriangleType).withArgs({}, 2, 3).to.throwException(errors.wrongArgType);
     });
