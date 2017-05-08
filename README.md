@@ -1,10 +1,12 @@
 # Triangle Challenge Solution
 
 
+
 ## The algorithm
 
+The algorithm is as simple as just comparing provided sides.
 
-The algorithm was checked by running unit tests written using `mocha`, `expect.js` and `babel`.
+I checked it by running unit tests written using `mocha`, `expect.js` and `babel`.
 
 ## Run the solution
 1. Install [Node.js](https://nodejs.org/) (I used version 6.9.2)
